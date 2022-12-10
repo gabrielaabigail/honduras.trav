@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+
+@font-face {
+  font-family: "Black Bones";
+  src: url("../fonts/Black Bones.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Regular.otf") format("truetype");
+}
+
+:root{
+	--color-body: #323232;
+	--color-azul: #071F54;
+	--color-azulclaro: #03A7E0;
+	--color-rojo: #EE0D0C;
+	--color-amarillo: #F8BE07;
+	--color-verde: #1EAF25;
+}
+
+body { 
+  font-family:"Montserrat";
+  font-size: 15px;
+  color: var(--color-body);
+}
+
+header{
+ padding: 10px 0px;
+}
+header img{
+	width: 100px
+}
+
+#hero{ 
+  padding: 30px 0px;
+ padding-bottom: 0px; 
+
+}
+
+#topics{
+	padding: 60px;
+}
+
+#topics img:hover {
+  opacity: 50%;
+color: #03A7E0;
+}
+
+h1{
+	font: "Montserrat";
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	color: #071F54;
+	padding-bottom: 30px;
+}
+
+h3{
+   font: "Montserrat";
+	text-align: center;
+	font-weight: 700;
+}
+
+p{
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.btn-outline-primary{
+	color:#fff;
+}
+
+#info{
+	text-align: justify;
+}
+
+#aventura{
+	background-image: url("../img/fondo-azul-imagen-fondo.png");
+	background-size: cover;
+	padding-top: 4%;
+	padding-bottom: 20%;
+	height: auto;
+	width: auto;
+}
+#info-aventura{
+	text-align:center;
+	padding-top: 7%;
+	font-size: 20px;
+	padding-right: 10%;
+	padding-left: 10%
+}
+
+#info-aventura{
+	padding-bottom: 70px;
+}
+#aventura h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+#aventura h3{ 
+	padding-top: 80px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 300;
+
+
+}
+#info{
+	
+	padding: 60px;
+	background: #071F54;
+	color: #FFFFFF;
+}
+
+.titulo{
+  font-family: "Black Bones";
+  text-align: justify; 
+  color: #fff;
+  font-size: 80px;
+	
+}
+
+
+#visit{ 
+  padding: 30px;
+}
+
+
+#galeria{
+	text-align: center;
+	padding-bottom: 60px;
+	
+}
+
+#galeria img{
+	width: 300px;
+	height: 250px;
+	padding-top: 30px;
+	border-radius: 10px;
+	
+}
+
+galeria h3{
+	border-bottom: thin dashed;
+}
+
+
+#info-ciudades{
+	padding-top: 7%;
+}
+#info-ciudades p{
+	text-align: center;
+	font-size: 20px;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 8%;
+}
+#imgcultura h1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#infocultura{
+	padding-top: 7%;
+	background-color: var(--color-azulclaro);
+	padding-bottom: 7%;
+}
+
+#infocultura p {
+	text-align: justify;
+	font-size: 16px;
+}
+
+#infocultura h4 {
+	text-align: justify;
+	font-size: 19px;
+	color: #fff;
+}
+
+footer{
+	text-align: center;
+	background-color: #071F54;
+	color: #fff;
+	padding: 60px 0 60px 0;
+}
+
+
+#redes{ 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+	
+
+#redes .la-facebook-f{
+	font-size: 60px;
+	color:#fff;	
+}
+
+#redes .la-instagram{
+	font-size: 60px;
+	color:#fff;
+	
+}
+
+#redes .la-twitter{
+	font-size: 60px;
+	color:#fff;
+	text-align: center;
+	
+	
+}
+
+#redes .la-youtube{
+	font-size: 60px;
+	color:#fff;
+	text-align: center;
+	
+}
+
+.texto1{
+	position: relative;
+	top: -200px;
+	left: -275px;
+}
+
+.full-screen {
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+.text-white {
+	text-align: left;
+	color: #000000;
+}
+
+#testimonial-slider img{
+	height: 400px;
+}
+
+#info-historia{ 
+	text-align: center;
+}
+
+
+#img-historia{ 
+	background-image: url("../img/copan.jpg");
+	padding: 300px 0px;
+	background-size: cover;
+}
+
+#img-historia h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 200;
+}
+ .lugaresr{
+	 padding-top: 5%;
+	 padding-bottom: 5%;
+	font-size: 45px;
+}
+
+.bold{ 
+	font-weight: 600;
+
+}
+
+.padding{ 
+	padding: 70px 0px;
+
+
+
+}
+
+#barra{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.espacio{ 
+padding: 5% 0%;
+
+}
+
+#barra-2{ 
+    background-image: url("../img/barra.png");
+	padding: 12px 0px;
+
+}
+
+.fondo{
+	background-color: var(--color-azulclaro);
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+	
+.letra{
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#lugares-recomendados{
+ padding-bottom: 10%
+}
+
+#contact-us-img h1{
+	padding-top: 20%;
+	text-align:left;
+}
+.card{
+	background-color: #fff ;
+	margin-top: -115%;
+	border: 0px;
+	border-bottom: 2px solid var(--color-azul);
+	box-shadow: 0px 0px 30px 0px #ddd;
+	align-content: center;
+}
+
+.card h3{
+	color: var(--color-azul);
+	letter-spacing: 2%;
+	padding-bottom: 4%;
+	font-size: 20px;
+}
+
+.card p{
+	text-align: center;
+	font-size: 16px;
+}
+
+.btn-azul{
+	display: inline-block !important;
+	background-color: var(--color-azulclaro);
+	color: #fff;
+	font-size:16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: 13%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+#cards .la-phone{
+	background-color: var(--color-azulclaro);
+	font-size: 60px;
+	color: #fff;
+	border-radius: 50%;
+	padding: 15px;
+}
+
+#cards .la-headset{
+	background-color: var(--color-azulclaro);
+	font-size: 60px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 15px;
+}
+
+#cards li{
+	text-align: center;
+	padding-right: 13%;
+	margin-top: -60px;
+	padding-bottom: 8%;
+}
+
+#form h5{
+	text-align: center;
+	color: var(--color-azul);
+	font-weight: 800;
+}
+
+#form h1{
+	padding-bottom: 6%;
+}
+
+#form .form-info{
+	background-color: #fff;
+	padding: 25px 30px;
+	text-align: center;
+	box-shadow: 0px 0px 30px 0px #ddd;
+}
+
+#form input, 
+#form textarea{
+	padding: 15px;
+	border-radius: 0;
+	background-color: #fbfbfb;
+	border:0;
+}
+
+#form .btn{
+	margin-left: -0%;
+	text-align: center;
+}
+
+#form{
+	padding-bottom: 5%;
+}
+
+#pueblosmagicos{
+	background-image: url("../img/pueblos5.jpg");
+	background-size: cover;
+	padding-top: 4%;
+	padding-bottom: 20%;
+	height: auto;
+	width: auto;
+}
+
+
+#pueblosmagicos h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 800;
+	padding-bottom: 80px;
+}
+
+#pueblosmagicos h3{ 
+	padding-top: 80px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+#pueblosmagicos p{
+	color: #fff;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#puebloslista .card{
+	margin-top: 0;
+}
+
+#puebloslista h4{
+	text-align: center;
+	font-size: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#puebloslista{
+	padding-top: 7%;
+	padding-bottom: 10%;
+}
+
+
